@@ -19,7 +19,7 @@ The notation used in the book is the same as PlantUML's source code, so direct t
 
 ## Some resources
 
-[Link to "Intro the Java 12e"](https://www.pearson.com/us/higher-education/program/Liang-Introduction-to-Java-Programming-and-Data-Structures-Comprehensive-Version-Plus-My-Lab-Programming-with-Pearson-e-Text-Access-Card-Package-12th-Edition/PGM2741922.html)
+[Link to "Intro the Java 12e"](https://www.pearson.com/se/Nordics-Higher-Education/subject-catalogue/computer-science/Introduction-to-Java-Programming-and-Data-Structures-Comprehensive-Version-Liang-12e.html)
 
 [Student resources](https://media.pearsoncmg.com/ph/esm/ecs_liang_ijp_12/cw/)
 
