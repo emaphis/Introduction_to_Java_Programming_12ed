@@ -1,3 +1,5 @@
+package chapter01;
+
 /*
  * 1.10 Programming Errors
  * LisTing 1.4 ShowSyntaxErrors.java
