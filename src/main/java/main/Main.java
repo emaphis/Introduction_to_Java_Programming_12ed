@@ -9,12 +9,12 @@ package main;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        var hello = "Hello, Intro to Java";
-        System.out.println(hello);
-    }
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) {
+    var hello = "Hello, Intro to Java";
+    System.out.println(hello);
+  }
 
 }
