@@ -5,7 +5,7 @@
 package chapter01;
 
 /**
- * A  program that displays the average speed in miles per
+ * A program that displays the average speed in miles per
  * hour. (Note 1 mile is equal to 1.6 kilometers.)
  * @author emaph
  */
