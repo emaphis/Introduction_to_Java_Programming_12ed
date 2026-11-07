@@ -1,0 +1,42 @@
+VAR#>3+4
+EXPRESSION#>chapter01.Exercise01_01
+EXPRESSION#>chapter01.Exercise01_01.main(args);
+EXPRESSION#>chapter01.Exercise01_01.main("");
+EXPRESSION#>chapter01.Exercise01_01.main([""]);
+CMD#>/clear
+CMD#>/help
+VAR#>3+4
+EXPRESSION#>chapter01.Exercise01_01
+EXPRESSION#>chapter01.Exercise01_01.main(args);
+EXPRESSION#>chapter01.Exercise01_01.main("");
+EXPRESSION#>chapter01.Exercise01_01.main([""]);
+CMD#>/clear
+CMD#>/help
+CMD#>/reset
+CMD#>/imports
+IMPORT#>import chapter02;
+IMPORT#>import chapter02.DisplayTime();
+EXPRESSION#>chapter02.DisplayTime.main([""]);
+CMD#>/help
+VAR#>3+4
+EXPRESSION#>chapter01.Exercise01_01
+EXPRESSION#>chapter01.Exercise01_01.main(args);
+EXPRESSION#>chapter01.Exercise01_01.main("");
+EXPRESSION#>chapter01.Exercise01_01.main([""]);
+CMD#>/clear
+CMD#>/help
+CMD#>/reset
+CMD#>/imports
+IMPORT#>import chapter02;
+IMPORT#>import chapter02.DisplayTime();
+EXPRESSION#>chapter02.DisplayTime.main([""]);
+CMD#>/help
+CMD#>/reset
+VAR#>int x = 5
+EXPRESSION#>x
+VAR#>x + 10
+VAR#>double y = 5.7
+CMD#>/vars
+VAR#>6.9
+CMD#>/vars
+CMD#>/exit
