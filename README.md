@@ -27,7 +27,7 @@ The notation used in the book is the same as PlantUML's source code, so direct t
 
 [Hints](https://liveexample.pearsoncmg.com/javarevel2e.html)
 
-[Check Point Questions](https://media.pearsoncmg.com/ph/esm/ecs_liang_ijp_12/cw/#checkpoints)
+[Check Point Questions](https://media.pearsoncmg.com/ph/php8/sites/ecs/ecs_liang_java_12/cw/#checkpoints)
 
 [FAQ](https://liveexample.pearsoncmg.com/faq.html)
 
