@@ -8,6 +8,7 @@
     <artifactId>Introduction_to_Java_Programming</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+    <description>Examples and exercises for Daniel Liang's Introduction to Java Programming 12 Edition.</description>    
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -61,10 +62,10 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.6.0</version>
+                    <version>3.6.1</version>
                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
-    <description>Examples and exercises for Daniel Liang's Introduction to Java Programming 12 Edition.</description>
+
 </project>
