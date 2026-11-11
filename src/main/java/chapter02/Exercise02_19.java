@@ -10,7 +10,7 @@
  *  area = sqrt((s - side1) * (s - side2) * (s - side3))
  *
  */
-package chapter09;
+package chapter02;
 
 import java.util.Scanner;
 

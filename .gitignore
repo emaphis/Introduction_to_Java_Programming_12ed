@@ -1,5 +1,7 @@
 # -*- mode: gitignore; -*-
 
+# Java
+
 # Compiled class file
 *.class
 
@@ -96,3 +98,18 @@ flycheck_*.el
 # undo-tree
 *.~undo-tree~
 /target/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+.metals
+.bloop
