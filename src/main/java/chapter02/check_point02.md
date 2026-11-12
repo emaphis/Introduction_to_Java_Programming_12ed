@@ -205,3 +205,159 @@ long seconds = now / 1000;
 long minutes = second / 60;
 long hours = minutes / 60;
 ```
+
+## 2.14 Augmented Assignment Operators
+
+### 2.14.1 Show the output of the following code
+
+```java
+double a = 6.5;
+a += a + 1;
+System.out.println(a);
+a = 6;
+a /= 2;
+System.out.println(a);
+```
+
+14.0
+3.0
+
+### 2.15 Increment and Decrement Operators
+
+### 2.15.1  Which of these statements are true?
+
+a. Any expression can be used as a statement.
+
+False, Only if it has a side effect, such a printing of updating a variable.
+x+1 is just an expression;
+x = x+1 is a statement
+x++ is a statement
+
+b. The expression x++ can be used as a statement.
+
+True, it has a side effect.
+
+c. The statement x = x + 5 is also an expression.
+
+True
+
+d. The statement x = y = x = 0 is illegal.
+
+False, it's legal.
+
+### 2.15.2      Show the output of the following code:
+
+```java
+int a = 6;
+int b = a++;
+System.out.println(a);
+System.out.println(b);
+a = 6;
+b = ++a;
+System.out.println(a);
+System.out.println(b);
+```
+
+7
+6
+7
+7
+
+## 2.16 Numeric Type Conversions
+
+### 2.16.1  Can different types of numeric values be used together in a computation?
+
+Yes, values of smaller range are automatically cast to values of larger range.
+
+Values of larger range must be manually cast to values of smaller range, some accuracy may be lost.
+
+### 2.16.2   What does an explicit casting from a double to an int do with the fractional part of the double value? Does casting change the variable being cast?
+
+The fractional part is truncated.
+
+### 2.16.3  Show the following output:
+
+```java
+float f = 12.5F;
+int i = (int)f;
+System.out.println("f is " + f);
+System.out.println("i is " + i);
+```
+
+f is 12.5
+i is 12
+
+### 2.16.4   If you change (int)(tax * 100) / 100.0 to (int)(tax * 100) / 100 in line 11 in Listing 2.8, what will be the output for the input purchase amount of 197.556?
+
+Enter purchase amount: 197.55  
+Sales tax is $11
+
+### 2.16.5   Show the output of the following code
+
+```java
+double amount = 5;
+System.out.println(amount / 2);
+System.out.println(5 / 2);
+```
+
+2.5
+2
+
+### 2.16.6  Write an expression that rounds up a double value in variable d to an integer
+
+int d2 = (int)(d + 0.5)
+
+## 2.17 Software Development Process
+
+### 2.17.1 How would you write the following arithmetic expression?
+
+```java
+double a = ...
+double b = ...
+double c = ...
+double desc = (-b + Math.sqrt(b*b - 4*a*c)) / (2*a)
+```
+
+## 2.18 Case Study: Counting Monetary Units
+
+### 2.18.1 Show the output of Listing 2.10 with the input value 1.99. Why does the program produce an incorrect result for the input 10.03?
+
+Enter an amount in double, for example 11.56: 1.99
+Your amount 1.99 consists of
+ 1 dollars
+ 3 quarters
+ 2 dimes
+ 0 nickels
+ 4 pennies
+
+Enter an amount in double, for example 11.56: 10.03
+Your amount 10.03 consists of
+ 10 dollars
+ 0 quarters
+ 0 dimes
+ 0 nickels
+ 2 pennies
+
+Loss of precision: 10.03 * 100 becomes 1002.9999999999999
+
+## 2.19 Common Errors and Pitfalls
+
+### 2.19.1 Can you declare a variable as int and later redeclare it as double?
+
+No.  You can't redeclare variables
+
+### 2.19.2 What is an integer overflow? Can floating-point operations cause overflow?
+
+Integers are stored in a limited number of digits.
+
+Floating point can't overflow.
+
+### 2.19.3 Will overflow cause a runtime error?
+
+No. Overflow is a logic error.
+
+### 2.19.4  What is a round-off error? Can integer operations cause round-off errors? Can floating-point operations cause round-off errors?
+
+Round off errors occur because some numbers are stored as approximations off the exact numbers.
+
+Integers can't have round off errors.

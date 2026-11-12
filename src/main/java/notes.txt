@@ -3,3 +3,6 @@ Exercise02_01
 Check exercises:
 https://liveexample.pearsoncmg.com/CheckExercise/faces/CheckExercise.xhtml
 
+Recources
+https://media.pearsoncmg.com/ph/esm/ecs_liang_ijp_12/cw/
+
