@@ -17,7 +17,7 @@ package chapter02;
 import java.util.Scanner;
 
 /**
- * A  a program that calculates the energy needed to heat water from an initial
+ * A program that calculates the energy needed to heat water from an initial
  * temperature to a final temperature.
  *
  * @author emaph

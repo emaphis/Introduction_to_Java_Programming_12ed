@@ -6,7 +6,7 @@
 
 ```java
 public class Test {
-    public void main(string[] args) {  // `string` is unknown type, captialize
+    public static void main(string[] args) {  // `string` is unknown type, capitalize
         double i = 50.0;
         double k = i + 50.0;
         double j = k + 1;
@@ -19,7 +19,7 @@ public class Test {
 
 ```java
 public class Test {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         double i = 50.0;
         double k = i + 50.0;
         double j = k + 1;

@@ -33,7 +33,7 @@ public class ShowCurrentTime {
     // Compute the current hour
     long currentHour = totalHours % 24;
 
-    // Display restults
+    // Display results
     System.out.println("Current time is " + currentHour + ":"
       + currentMinute + ":" + currentSecond + " GMT");
   }

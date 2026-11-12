@@ -23,10 +23,10 @@ public class Exercise02_08 {
     System.out.print("Enter the time zone offset to GMT: ");
     int offset = input.nextInt();
 
-    // Get the current time in total millisoconds since midnight, Jan 1 1970
+    // Get the current time in total milliseconds since midnight, Jan 1 1970
     long currentTimeMilliseconds = System.currentTimeMillis();
 
-    // Objtain the total seconds since midnight  Jan 1, 1970
+    // Obtain the total seconds since midnight  Jan 1, 1970
     long totalSeconds = currentTimeMilliseconds / 1000;
 
     // Compute the current second in the minute in the hour

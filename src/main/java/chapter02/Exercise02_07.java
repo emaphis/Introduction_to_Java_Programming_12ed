@@ -28,11 +28,11 @@ public class Exercise02_07 {
     int years = minutes / MINUTES_PER_YEAR;
     int remainingMinutes = minutes % MINUTES_PER_YEAR;
     int days = remainingMinutes / MINUTES_PER_DAY;
-    System.out.println(minutes + " minutes is approcimately " + years + " years and " + days + " days" );
+    System.out.println(minutes + " minutes is approximately " + years + " years and " + days + " days" );
   }
 }
 
 /*
   Enter the number of minutes: 1000000000
-  1000000000 minutes is approcimately 1902 years and 214 days
+  1000000000 minutes is approximately 1902 years and 214 days
 */

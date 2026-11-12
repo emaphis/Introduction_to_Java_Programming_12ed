@@ -1,6 +1,5 @@
 /*
  * Chapter 2
- * Section 
  * Section 2.2–2.13
  * Exercise 2.16
  * (Geometry: area of a hexagon) Write a program that prompts the user to enter the 

@@ -26,15 +26,15 @@ public class ComputeAreaWithConstant {
     double area = radius * radius * PI;
 
     // Display results
-    System.out.println("Te area for the circle of rasdius "
+    System.out.println("Te area for the circle of radius "
         + radius + " is " + area);
   }
 }
 
 /*
     Enter a number for radius: 2.5
-    Te area for the circle of rasdius 2.5 is 19.6349375
+    Te area for the circle of radius 2.5 is 19.6349375
 
     Enter a number for radius: 23
-    Te area for the circle of rasdius 23.0 is 1661.90111
+    Te area for the circle of radius 23.0 is 1661.90111
 */

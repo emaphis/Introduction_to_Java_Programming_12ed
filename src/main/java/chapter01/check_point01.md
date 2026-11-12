@@ -30,7 +30,7 @@ Memory is part of the hardware that holds the information while the computer ope
 
 RAM stands for Random Access Memory.
 
-I is called Random because it can be accessed randomly as opposed to a linear tape drive.
+It is called Random because it can be accessed randomly as opposed to a linear tape drive.
 
 ### 1.2.6 What unit is used to measure memory size? What unit is used to measure disk size?
 
@@ -56,7 +56,7 @@ Assembler converts assembly code to machine code for consumption by the CPU.
 
 ### 1.3.3 What is a high-level programming language? What is a source program?
 
-High-level language that is more abstract than assembly language, and can be cross platform.
+High-level language that is more abstract than assembly language, and can be cross-platform.
 
 Source program is text written by programmers in a high level language that is translated into machine code by a compiler.
 
@@ -70,7 +70,7 @@ Compiler translates a whole program at a time into machine language.
 
 ### 1.4.1 What is an operating system? List some popular operating systems
 
-Operating system is software to controls the computer.  MSDos, Unix, Mac OS. Linux are some examples/
+Operating system is software to controls the computer.  MSDos, Unix, macOS. Linux are some examples/
 
 ### 1.4.2 What are the major responsibilities of an operating system?
 
@@ -116,7 +116,7 @@ Integrated Development Environment.
 
 ### 1.6.4 Are tools like NetBeans and Eclipse different languages from Java, or are they dialects or extensions of Java?
 
-The are IDEs specialized of Java development.
+They are IDEs specialized of Java development.
 
 ## 1.7 A Simple Java Program
 
@@ -126,9 +126,9 @@ A keyword is a token that has special significance/meaning in a programming lang
 
 class, public, private, static, void, if, else.
 
-### 1.7.2 Is Java case sensitive? What is the case for Java keywords?
+### 1.7.2 Is Java case-sensitive? What is the case for Java keywords?
 
-Java is case sensitive.
+Java is case-sensitive.
 
 Keywords are in lower case.
 
@@ -141,7 +141,8 @@ Comments are ignored by compilers, they are useful for human readers.
 ```java
 //Two slashes '//' denote a one line comment in java. 
 
-// A pair os slash stars denote a multi-line comment 
+// A pair os slash stars denote a multi-line comment
+
 /* comment */
 
 ```
@@ -242,9 +243,9 @@ Forgetting to put a closing quotation mark on a string will cause a syntax error
 
 ### 1.10.4 If your program needs to read integers, but the user entered strings, an error would occur when running this program. What kind of error is this?
 
-A program that needs to read integer, but the user enter strings will generate an runtime error.
+A program that needs to read integer, but the user enter strings will generate a runtime error.
 
-### 1.10.5 Suppose you write a program for computing the perimeter of a rectangle and you mistakenly write your program so it computes the area of a rectangle. What kind of error is this?
+### 1.10.5 Suppose you write a program for computing the perimeter of a rectangle, and you mistakenly write your program so it computes the area of a rectangle. What kind of error is this?
 
 This example is a logic error.
 

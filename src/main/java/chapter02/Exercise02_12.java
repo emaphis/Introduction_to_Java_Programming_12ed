@@ -30,16 +30,16 @@ public class Exercise02_12 {
   public static void main(String[] args) {
     Scanner  input = new Scanner(System.in);
     
-    // Propt the user for speed (velocity) and acceleration.
+    // Prompt the user for speed (velocity) and acceleration.
     System.out.print("Enter speed and acceleration: ");
     double v = input.nextDouble();
     double a = input.nextDouble();
     
     // Calculate runway length.
-    double lenght = (v * v) / (2 * a);
+    double length = (v * v) / (2 * a);
  
     // Display results
-    System.out.println("The minimum runway length for this airplane is " + lenght);
+    System.out.println("The minimum runway length for this airplane is " + length);
   }
 }
 

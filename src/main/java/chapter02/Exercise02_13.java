@@ -49,7 +49,7 @@ public class Exercise02_13 {
     newAmount = (amount + newAmount) * (1 + RATE);
     // fourth month
     newAmount = (amount + newAmount) * (1 + RATE);
-    // fith month
+    // fifsth month
     newAmount = (amount + newAmount) * (1 + RATE);
     // sixth month
     newAmount = (amount + newAmount) * (1 + RATE);

@@ -25,11 +25,11 @@ public class ComputeArea {
     area = radius * radius * 3.14159;
 
     // Step 3: Display the area
-    System.out.println("Te area for the circle of rasdius "
+    System.out.println("Te area for the circle of radius "
         + radius + " is " + area);
   }
 }
 
 /*
-    Te area for the circle of rasdius 20.0 is 1256.636
+    Te area for the circle of radius 20.0 is 1256.636
  */

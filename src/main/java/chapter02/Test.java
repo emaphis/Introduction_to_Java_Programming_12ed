@@ -1,5 +1,5 @@
 /*
- * Chapter 2 Example classes from chapber 2
+ * Chapter 2 Example classes from chapter 2
  */
 package chapter02;
 

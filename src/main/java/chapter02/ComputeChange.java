@@ -8,7 +8,7 @@ package chapter02;
 import java.util.Scanner;
 
 /**
- * A program that breaks a large amount of money into smaller units\
+ * A program that breaks a large amount of money into smaller units
  * 
  * @author emaph
  */
@@ -22,26 +22,26 @@ public class ComputeChange {
     System.out.print("Enter an amount in double, for example 11.56: ");
     double amount = input.nextDouble();
     
-    int remainintAmount = (int)(amount * 100);
+    int remainingAmount = (int)(amount * 100);
     
     // Find the number of one dollars
-    int numberOfOneDollars = remainintAmount / 100;
-    remainintAmount = remainintAmount % 100;
+    int numberOfOneDollars = remainingAmount / 100;
+    remainingAmount = remainingAmount % 100;
     
-    // Find the number of auarters in the ramaining amount
-    int numberOfQuarters = remainintAmount / 25;
-    remainintAmount = remainintAmount % 25;
+    // Find the number of quarters in the remaining amount
+    int numberOfQuarters = remainingAmount / 25;
+    remainingAmount = remainingAmount % 25;
     
-    // Find the number of dimes in the ramaining amouint
-    int numberOfDimes = remainintAmount / 10;
-    remainintAmount = remainintAmount % 10;
+    // Find the number of dimes in the remaining amount
+    int numberOfDimes = remainingAmount / 10;
+    remainingAmount = remainingAmount % 10;
     
     // Find the number of nickels in remaining amount
-    int numberOfNickels = remainintAmount / 5;
-    remainintAmount = remainintAmount % 5;
+    int numberOfNickels = remainingAmount / 5;
+    remainingAmount = remainingAmount % 5;
     
-    // Find the number of pennies in the ramaining amounmt
-    int numberOfPennies = remainintAmount;
+    // Find the number of pennies in the remaining amount
+    int numberOfPennies = remainingAmount;
     
     // Display results
     System.out.println("Your amount " + amount + " consists of");
@@ -50,15 +50,15 @@ public class ComputeChange {
     System.out.println(" " + numberOfDimes + " dimes");
     System.out.println(" " + numberOfNickels + " nickels");
     System.out.println(" " + numberOfPennies + " pennies");
-  }  
+  }
 }
 
 /*
 Enter an amount in double, for example 11.56: 11.56
 Your amount 11.56 consists of
  11 dollars
- 6 quarters 
+ 2 quarters 
  0 dimes
- 0 nickels
- 2 pennies
+ 1 nickels
+ 1 pennies
 */
