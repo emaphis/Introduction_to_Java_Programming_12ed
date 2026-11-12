@@ -20,8 +20,8 @@ import java.util.Scanner;
  */
 public class Exercise02_14 {
   public static void main(String[] args) {
-    double  POUNDS_PER_KG = 0.45359237;
-    double INCH_PER_METER = 0.0254;
+    final double  POUNDS_PER_KG = 0.45359237;
+    final double INCH_PER_METER = 0.0254;
     Scanner input = new Scanner(System.in);
     
     // Prompt the user to enter a weight in pounds and height in inches

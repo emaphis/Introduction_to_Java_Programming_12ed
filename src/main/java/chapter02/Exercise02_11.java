@@ -17,8 +17,8 @@ import java.util.Scanner;
  */
 public class Exercise02_11 {
   public static void main(String[] args) {
-    int POPULATION = 312_032_486;
-    int SEC_PER_YEAR = 365 * 24 * 60 * 60;
+    final int POPULATION = 312_032_486;
+    final int SEC_PER_YEAR = 365 * 24 * 60 * 60;
     Scanner input = new Scanner(System.in);
     
     // Prompt the user to enter the number of years

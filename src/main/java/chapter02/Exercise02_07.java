@@ -18,8 +18,8 @@ import java.util.Scanner;
  */
 public class Exercise02_07 {
   public static void main(String[] args) {
-    int MINUTES_PER_DAY = 24 * 60;
-    int MINUTES_PER_YEAR = 365 * MINUTES_PER_DAY;
+    final int MINUTES_PER_DAY = 24 * 60;
+    final int MINUTES_PER_YEAR = 365 * MINUTES_PER_DAY;
     Scanner input = new Scanner(System.in);
 
     System.out.print("Enter the number of minutes: ");

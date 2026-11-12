@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Exercise02_03 {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    double FEET_PER_METER = 0.305;
+    final double FEET_PER_METER = 0.305;
 
     System.out.print("Enter a value for feet: ");
     double feet = input.nextDouble();

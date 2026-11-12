@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Exercise02_04 {
 
   public static void main(String[] args) {
-    double KILOGRAM_PER_POUND = 0.454;
+    final double KILOGRAM_PER_POUND = 0.454;
     Scanner input = new Scanner(System.in);
 
     System.out.print("Enter a number in pounds: ");

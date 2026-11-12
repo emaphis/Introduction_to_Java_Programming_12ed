@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class Exercise02_02 {
 
   public static void main(String[] args) {
-    double PI = 3.14159;
+    final double PI = 3.14159;
 
     Scanner input = new Scanner(System.in);
 
