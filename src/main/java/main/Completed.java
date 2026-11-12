@@ -11,7 +11,7 @@ public class Completed {
 
   static int[] exercises = {
     13, // ch 01
-  //  0, // ch 02
+    23, // ch 02
   //  0, // ch 03
   //  0, // ch 04
   //  0  // ch 37
