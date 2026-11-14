@@ -6,3 +6,6 @@ https://liveexample.pearsoncmg.com/CheckExercise/faces/CheckExercise.xhtml
 Recources
 https://media.pearsoncmg.com/ph/esm/ecs_liang_ijp_12/cw/
 
+Check points
+https://media.pearsoncmg.com/ph/php8/sites/ecs/ecs_liang_java_12/cw/#checkpoints
+
