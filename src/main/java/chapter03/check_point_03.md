@@ -60,7 +60,7 @@ The "radius >= 0" needs to be in parentheses.
 
 ## 3.4 Two-Way if-else Statements
 
-### 3.4.1 Write an if statement that increases pay by 3% if score is greater than 90, oth erwise increases pay by 1%
+### 3.4.1 Write an if statement that increases pay by 3% if score is greater than 90, otherwise increases pay by 1%
 
 ```java
 if (score > 90)
@@ -225,3 +225,30 @@ number = 30
 A - 30 id even
     30 is a multiple of 5
 B - 30 is even
+
+## 3.7 Generating Random Numbers
+
+### 3.7.1 Which of the following is a possible output from invoking Math.random()?
+
+Possible:  0.5, 0.0, 0.234
+Impossible: 1.0, 323.4, 34
+
+### 3.7.2
+
+a. How do you generate a random integer i such that 0 <= i <= 20?
+
+(int)(Math.random() * 20)
+
+b. How do you generate a random integer i such that 10 <= i < 20?
+
+(int)(Math.random() * 10) + 10
+
+c. How do you generate a random integer i such that 10 <=  i <= 50?
+
+(int)(Math.random() * 41) + 10
+
+d. Write an expression that returns 0 or 1 randomly.
+
+(int)(Math.random() * 2)
+
+##

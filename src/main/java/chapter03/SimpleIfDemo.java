@@ -1,14 +1,14 @@
 /*
  * Chapter 3
  * Section 3.3 if Statements
- * Listing LisTing 3.2 SimpleIfDemo.java
+ * Listing 3.2 SimpleIfDemo.java
  */
 package chapter03;
 
 import java.util.Scanner;
 
 /**
- * A  a program that prompts the user to enter an integer. If the number is
+ * A program that prompts the user to enter an integer. If the number is
  * a multiple of 5, the program displays HiFive. If the number is divisible by 2,
  * it displays HiEven.
  *

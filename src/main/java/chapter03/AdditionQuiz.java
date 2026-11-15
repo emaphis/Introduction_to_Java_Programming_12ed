@@ -1,7 +1,7 @@
 /*
  * Chapter 3
  * Section 3.2 boolean Data Type, Values, and Expressions
- * Listing LisTing 3.1 AdditionQuiz.java
+ * Listing 3.1 AdditionQuiz.java
  */
 package chapter03;
 

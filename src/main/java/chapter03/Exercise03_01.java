@@ -17,7 +17,7 @@ package chapter03;
 import java.util.Scanner;
 
 /**
- * A a program that prompts the user to enter values for a, b, and c and displays
+ * A program that prompts the user to enter values for a, b, and c and displays
  * the result based on the discriminant.
  *
  * @author emaph
