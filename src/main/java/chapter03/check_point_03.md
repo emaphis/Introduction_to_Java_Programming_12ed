@@ -251,4 +251,27 @@ d. Write an expression that returns 0 or 1 randomly.
 
 (int)(Math.random() * 2)
 
+## 3.8 Case Study: Computing Body Mass Index
+
+## 3.9 Case Study: Computing Taxes
+
+### 3.9.1 Are the following two statements equivalent?
+
+```java
+if (income <= 10000)
+  tax = income * 0.1;
+else if (income <= 20000)
+  tax = 1000 +
+    (income − 10000) * 0.15;
+//------------------------------
+if (income <= 10000)
+  tax = income * 0.1;
+else if (income > 10000 &&
+         income <= 20000)
+  tax = 1000 +
+    (income − 10000) * 0.15;
+```
+
+Yes  The `(... && income <= 20000)` doesn't do anything.
+
 ##
