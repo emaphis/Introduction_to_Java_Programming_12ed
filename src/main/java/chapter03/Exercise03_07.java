@@ -1,6 +1,6 @@
 /*
  * Chapter 3
- * Section Sections 3.3–3.7
+ * Section 3.3–3.7
  * Exercise 3.7
  * (Financial application: monetary units) Modify Listing 2.10, ComputeChange.
  * java, to display the nonzero denominations only, using singular words for single
