@@ -7,15 +7,15 @@ package chapter03;
 public class Test {
 
   public static void main(String[] args) {
-    int x = 3;
-    int y = 3;
-    if (x > 2) {
-      if (y > 2) {
-        int z = x + y;
-        System.out.println("z is " + z);
-      } else {
-        System.out.println("x is " + x);
-      }
-    }
+    java.util.Scanner input = new java.util.Scanner(System.in);
+    double x = input.nextDouble();
+    double y = input.nextDouble();
+    double z = input.nextDouble();
+
+    System.out.println("(x < y && y < z) is " + (x < y && y < z));
+    System.out.println("(x < y || y < z) is " + (x < y || y < z));
+    System.out.println("!(x < y) is " + !(x < y));
+    System.out.println("(x + y < z) is " + (x + y < z));
+    System.out.println("(x + y > z) is " + (x + y > z));
   }
 }

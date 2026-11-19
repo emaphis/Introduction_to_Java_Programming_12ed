@@ -272,6 +272,134 @@ else if (income > 10000 &&
     (income − 10000) * 0.15;
 ```
 
-Yes  The `(... && income <= 20000)` doesn't do anything.
+Yes  The `(... && income <= 20000)`clause doesn't do anything.
 
-##
+## 3.10 Logical Operators
+
+### 3.10.1 Assuming that x is 1, show the result of the following Boolean expressions:
+
+```java
+int x = 1
+(true) && (3 > 4)       // false
+ !(x > 0) && (x > 0)    // false
+ (x > 0) || (x < 0)     // true
+ (x != 0) || (x == 0)   // true
+ (x >= 0) || (x < 0)    // true
+ (x != 1) == !(x == 1)  // true
+```
+
+### 3.10.2 (a) Write a Boolean expression that evaluates to true if a number stored in variable num is between 1 and 100. (b) Write a Boolean expression that evaluates to true if a number stored in variable num is between 1 and 100 or the number is negative
+
+```java
+// a
+(num > 1) && (num < 100)
+
+// b
+(num > 1) && (num < 100) || (num < 0)
+
+```
+
+### 3.10.3 (a) Write a Boolean expression for |x - 5| < 4.5. (b) Write a Boolean expression for |x - 5| > 4.5
+
+```java
+// a
+(x - 5) < 4.5 && (x - 5) > -4.5
+
+// b
+(x - 5) > 4.5 || (x - 5) < -4.5
+```
+
+### 3.10.4 Assume x and y are int type. Which of the following are legal Java expressions?
+
+```Java
+x > y > 0   // not legal
+x = y && y  // not legal
+x /= y      // legal
+x or y      // not legal
+x and y     // not legal
+(x != 0) || (x = 0) // not legal, assigns 0 to x
+```
+
+## 3.10.5 Are the following two expressions the same?
+
+```java
+// a
+x % 2 == 0 && x % 3 == 0
+
+// b
+x % 6 == 0
+```
+
+Yes.
+
+## 3.10.6 What is the value of the expression x >= 50 && x <= 100 if x is 45, 67, or 101?
+
+45 - false
+67 - true
+101 - false
+
+## 3.10.7 Suppose, when you run the following program, you enter the input 2 3 6 from the console. What is the output?
+
+```java
+public class Test {
+  public static void main(String[] args) {
+    java.util.Scanner input = new java.util.Scanner(System.in);
+    double x = input.nextDouble();
+    double y = input.nextDouble();
+    double z = input.nextDouble();
+    
+    System.out.println("(x < y && y < z) is " + (x < y && y < z));
+    System.out.println("(x < y || y < z) is " + (x < y || y < z));
+    System.out.println("!(x < y) is " + !(x < y));
+    System.out.println("(x + y < z) is " + (x + y < z));
+    System.out.println("(x + y > z) is " + (x + y > z));
+  }
+}
+```
+
+(x < y && y < z) is true
+(x < y || y < z) is true
+!(x < y) is false
+(x + y < z) is true
+(x + y > z) is false
+
+### 3.10.8 Write a Boolean expression that evaluates to true if age is greater than 13 and less than 18
+
+```java
+int age ...
+
+(age > 13) && (age < 18>)
+```
+
+### 3.10.9 Write a Boolean expression that evaluates to true if weight is greater than 50 pounds or height is greater than 60 inches
+
+```java
+int weight = ...
+int height = ...
+
+(weight > 50) || (height > 60)
+```
+
+### 3.10.11 Write a Boolean expression that evaluates to true if either weight is greater than 50 pounds or height is greater than 60 inches, but not both.
+
+```Java
+(weight > 50) ^ (height > 60)
+```
+
+## 3.11 Case Study: Determining Leap Year
+
+### 3.11.1 How many days in the February of a leap year? Which of the following is a leap year? 500, 1000, 2000, 2016, and 2020?
+
+29 days in a leap year February.
+
+500  - false
+1000 - false
+2000 - true
+2016 - true
+2020 - true
+
+## 3.12 Case Study: Lottery
+
+### 3.12.1 What happens if you enter an integer as 05?
+
+One number (0) can't match.
