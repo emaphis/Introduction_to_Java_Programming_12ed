@@ -403,3 +403,103 @@ int height = ...
 ### 3.12.1 What happens if you enter an integer as 05?
 
 One number (0) can't match.
+
+## 3.13 switch Statements
+
+### 3.13.1 What data types are required for a switch variable? If the keyword break is not used after a case is processed, what is the next statement to be executed? Can you convert a switch statement to an equivalent if statement, or vice versa? What are the advantages of using a switch statement?
+
+Types are char, int, long, string
+
+The next statement to execute is the next case statement.  (fallthrough)
+
+Yes, any case statement can be translated to an if statement.
+
+Case statements are mor concise than long if statements.
+
+### 3.13.2 What is y after the following switch statement is executed? Rewrite the code using an if-else statement
+
+```java
+x = 3; y = 3;
+switch (x + 3) {
+  case 6: y = 1;
+  default: y += 1;
+}
+```
+ 
+ x = 6
+
+```java
+if (x + 3 == 6)
+  y = 1
+else
+  y += 1
+
+```
+
+### 3.13.3 What is x after the following if-else statement is executed? Use a switch statement to rewrite it and draw the flowchart for the new switch statement
+
+```java
+int x = 1, a = 3;
+if (a == 1)
+  x += 5;
+else if (a == 2)
+  x += 10;
+else if (a == 3)
+  x += 16;
+else if (a == 4)
+  x += 34;
+
+```
+
+x = 17
+
+```java
+int x = 1, a = 3;
+switch (a) {
+  case 1:
+    x += 5;
+    break;
+  case 2:
+    x += 10;
+    break;
+  case 3:
+    x += 16;
+    break;
+  case 4:
+    x += 34;
+    break;
+  default:
+    break;
+}
+```
+
+### 3.13.4 Write a switch statement that displays Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, if day is 0, 1, 2, 3, 4, 5, 6, respectively
+
+```java
+int day = ...
+switch (day) {
+  case 0:
+    System.out.println("Sunday");
+    break;
+  case 1:
+    System.out.println("Monday");
+    break;
+  case 2:
+    System.out.println("Tuesday");
+    break;
+  case 3:
+    System.out.println("Wednesday");
+    break;
+  case 4:
+    System.out.println("Thursday");
+    break;
+  case 5:
+    System.out.println("Friday");
+    break;
+  case 6:
+    System.out.println("Saturday");
+    break;
+}
+```
+
+### 3.13.5 Rewrite Listing 3.9 using an if-else statement.
