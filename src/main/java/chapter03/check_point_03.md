@@ -408,11 +408,11 @@ One number (0) can't match.
 
 ### 3.13.1 What data types are required for a switch variable? If the keyword break is not used after a case is processed, what is the next statement to be executed? Can you convert a switch statement to an equivalent if statement, or vice versa? What are the advantages of using a switch statement?
 
-Types are char, int, long, string
+Types are char, byte, short, int, long, String
 
 The next statement to execute is the next case statement.  (fallthrough)
 
-Yes, any case statement can be translated to an if statement.
+Yes, any case statement can be translated to an if statement, but not an if statement to a switch statement.
 
 Case statements are mor concise than long if statements.
 
@@ -425,14 +425,14 @@ switch (x + 3) {
   default: y += 1;
 }
 ```
- 
- x = 6
+
+x = 6
 
 ```java
 if (x + 3 == 6)
   y = 1
-else
-  y += 1
+
+y += 1
 
 ```
 
@@ -467,9 +467,6 @@ switch (a) {
     break;
   case 4:
     x += 34;
-    break;
-  default:
-    break;
 }
 ```
 
@@ -502,4 +499,109 @@ switch (day) {
 }
 ```
 
-### 3.13.5 Rewrite Listing 3.9 using an if-else statement.
+### 3.13.5 Rewrite Listing 3.9 using an if-else statement
+
+## 3.14 Conditional Operators
+
+### 3.14.1 Suppose when you run the following program, you enter the input 2 3 6 from the console. What is the output?
+
+```java
+public class Test {
+  public static void main(String[] args) {
+    java.util.Scanner input = new java.util.Scanner(System.in);
+    double x = input.nextDouble();
+    double y = input.nextDouble();
+    double z = input.nextDouble();
+    System.out.println((x < y && y < z)? "sorted": "not sorted");
+  }
+}
+```
+
+Output is "sorted"
+
+### 3.14.2 Rewrite the following if statements using the conditional operator
+
+```java
+if (ages >= 16)
+  ticketPrice = 20;
+else
+  ticketPrice = 10;
+```
+
+```java
+ticketPrice = (ages >= 16) 20 : 10;
+```
+
+### 3.14.3 Rewrite the following codes using if-else statements
+
+```java
+// a.
+score = (x > 10)? 3 * scale: 4 * scale;
+
+// b.
+tax = (income > 10000)? income * 0.2: income * 0.17 + 1000;
+
+// c.
+System.out.println((number % 3 == 0)? i: j);
+```
+
+```java
+// a.
+int score;
+if (x > 10)
+  score = 3 * scale;
+else
+  score = 4 * scale
+
+// b.
+int tax;
+if (income > 10000)
+  tax = income * 0.2;
+else
+  tax = income * 0.17 + 1000;
+
+// c.
+int out;
+if (number % 3 == 0)
+  out = i;
+else
+  out = j;
+System.out.println(out);
+```
+
+### 3.14.4 Write an expression using a conditional operator that returns randomly −1 or 1
+
+```java
+(int)(Math.random() * 2) == 0 ? -1 : 1;
+```
+
+## 3.15 Operator Precedence and Associativity
+
+### 3.15.1 List the precedence order of the Boolean operators. Evaluate the following expressions
+
+! -> ^ -> && -> ||
+
+```java
+true || true && false  -> true
+true && true || false  -> true
+```
+
+### 3.15.2 True or false? All the binary operators except = are left associative
+
+True, they are all left associative
+
+### 3.15.3 Evaluate the following expressions
+
+```java
+2 * 2 - 3 > 2 && 4 - 2 > 5  -> false
+2 * 2 - 3 > 2 || 4 - 2 > 5  -> false
+```
+
+### 3.15.4
+
+Is (x > 0 && x < 10) the same as ((x > 0) && (x < 10))?  -> yes
+Is (x > 0 || x < 10) the same as ((x > 0) || (x < 10))?  -> yes
+Is (x > 0 || x < 10 && y < 0) the same as (x > 0 ||  
+  (x < 10 && y < 0))?       -> yes
+
+## 3.16 Debugging

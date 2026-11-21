@@ -34,11 +34,21 @@ public class Exercise03_11 {
         (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     int febDays = (isLeapYear ? 29 : 28);
 
-    String output;
-    if (month == 1)
-      output = "January " + year + " has 31 days";
-    else if (month == 2)
-       output = "February " + year + " has " + febDays + " days";
-    //else if
+    String output = "";
+    switch (month) {
+      case 1: output = "January " + year + " has 31 days"; break;
+      case 2: output = "February " + year + " has " + febDays + " days"; break;
+      case 3: output = "March " + year + " had 31 days"; break;
+      case 4: output = "April " + year + " had 30 days"; break;
+      case 5: output = "May " + year + " had 31 days"; break;
+      case 6: output = "June " + year + " had 30 days"; break;
+      case 7: output = "July " + year + " had 31 days"; break;
+      case 8: output = "August " + year + " had 31 days"; break;
+      case 9: output = "September " + year + " had 30 days"; break;
+      case 10: output = "October " + year + " had 31 days"; break;
+      case 11: output = "November " + year + " had 30 days"; break;
+      case 12: output = "December " + year + " had 31 days";
+    }
+    System.out.println(output);
   }
 }
