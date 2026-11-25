@@ -1,6 +1,6 @@
 /*
  * Chapter 3
- * Section 3.8–3.16
+ * Section 3.8 - 3.16
  * Exercise 3.11
  * (Find the number of days in a month) Write a program that prompts the user
  * to enter the month and year and displays the number of days in the month. For

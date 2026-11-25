@@ -1,6 +1,6 @@
 /*
  * Chapter 3
- * Section 3.3-3.7
+ * Section 3.8 - 3.16
  * Exercise 3.12
  * (Palindrome integer) Write a program that prompts the user to enter a three-digit
  * integer and determines whether it is a palindrome integer. An integer is palindrome
